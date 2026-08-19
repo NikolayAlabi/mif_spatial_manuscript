@@ -1,0 +1,24 @@
+Characteristic,NAC2020,PURE01,No-NAC,BLASST
+Treatment context,Not recorded,Not recorded,No NAT / RC-only,Not recorded
+Specimen format,TMA cores,TMA cores,TMA cores,Whole-section regions
+mIF sample types,TURBT; RC,TURBT; RC,TURBT; RC,TURBT; RC
+"Clinical patients, n",42,90,65,41
+"Age, median (IQR)",62 (55-68),67 (62-74),71 (65-77),66 (59-71)
+"Male sex, n/N (%)",32/42 (76%),77/90 (86%),57/65 (88%),26/41 (63%)
+"Variant histology recorded, n/N (%)",6/42 (14%),37/90 (41%),15/65 (23%),0/41 (0%)
+"Clinical T stage ≥3, n/N (%)",13/42 (31%),44/90 (49%),17/65 (26%),4/41 (10%)
+"Pathologic T0, n/N (%)",13/42 (31%),35/90 (39%),0/65 (0%),15/41 (37%)
+"Pathologic node-positive, n/N (%)",11/42 (26%),12/90 (13%),32/65 (49%),7/41 (17%)
+"Any pathologic response, n/N (%)",18/42 (43%),50/90 (56%),0/0,28/41 (68%)
+"Complete pathologic response, n/N (%)",13/42 (31%),33/90 (37%),0/0,15/41 (37%)
+"OS deaths, n/N (%)",15/41 (37%),11/90 (12%),50/63 (79%),8/41 (20%)
+"RFS recurrences, n/N (%)",11/41 (27%),17/90 (19%),37/65 (57%),3/41 (7%)
+"Adjuvant chemotherapy, n/N (%)",0/0,0/0,18/65 (28%),0/0
+"Adjuvant IO, n/N (%)",0/0,0/0,0/0,0/0
+"mIF units submitted, n",336,382,490,"1,190"
+"mIF units QC/source-complete, n/N (%)",336/336 (100%),382/382 (100%),486/490 (99%),1190/1190 (100%)
+"AR units submitted, n",167,196,245,590
+"AR units QC/source-complete, n/N (%)",167/167 (100%),196/196 (100%),243/245 (99%),590/590 (100%)
+"BT units submitted, n",169,186,245,600
+"BT units QC/source-complete, n/N (%)",169/169 (100%),186/186 (100%),243/245 (99%),600/600 (100%)
+"Total AR+BT segmented cells, n","1,989,336","2,006,693","2,789,307","11,371,738"

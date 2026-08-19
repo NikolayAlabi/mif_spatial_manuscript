@@ -1,0 +1,5 @@
+prep_root,panel,label,label_base,excluded_from_primary,n_cells,n_units_present,median_fraction_when_present,mean_fraction_when_present,max_fraction_when_present,n_units_total,fraction_units_present
+AR_checkpoint_state,AR,checkpoint_neg,checkpoint_neg,False,2242207,481,0.8679312813171081,0.7885761758401683,0.9993232955506682,481,1.0
+AR_checkpoint_state,AR,PDL1,PDL1,False,539338,480,0.08709768877022589,0.16446700828753164,0.9207750515936711,481,0.997920997920998
+AR_checkpoint_state,AR,PD1,PD1,False,108391,477,0.012388162422573986,0.036287535852377144,0.7505112474437627,481,0.9916839916839917
+AR_checkpoint_state,AR,PD1_PDL1,PD1_PDL1,False,38908,423,0.004708904109589041,0.012864162745342755,0.16630400994715575,481,0.8794178794178794

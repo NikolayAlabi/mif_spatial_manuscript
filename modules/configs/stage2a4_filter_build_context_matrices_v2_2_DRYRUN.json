@@ -1,0 +1,19 @@
+{
+  "stage2a_steps1_3_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2a_steps1_3_context_review_v4",
+  "context_rules_csv": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/configs/stage2a4_context_selection_rules.csv",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v9/stage2a4_rescue_parser_dryrun_v2_2",
+  "reuse_stage2a4_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2a4_filtered_context_matrices",
+  "interpretability_utils_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2a_interpretability_utils_v2_2.py",
+  "feature_parser_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2_feature_parser_v8_2.py",
+  "stage1_script_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/univariate_screening/stage1_univariate_cv_screen_v6.py",
+  "harmonized_path": "/projects/ovcare/users/nikolay_alabi/immuno/data/harmonized_modeling_dataframe.csv",
+  "koll_metadata_csv": "/projects/ovcare/users/nikolay_alabi/immuno/data/KOLL_cohort/KOLL_core_metadata.csv",
+  "qc_acceptability": "acceptable_or_borderline",
+  "min_epi_fraction": 0.05,
+  "spatial_root": null,
+  "cell_features_path": null,
+  "triads_path": null,
+  "rescue_search_max_oof_loss": 0.05,
+  "max_rescues_per_seed_per_rule": 3,
+  "skip_matrix_build": true
+}

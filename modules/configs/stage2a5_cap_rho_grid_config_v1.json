@@ -1,0 +1,69 @@
+{
+  "stage2a4_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2a4_filtered_context_matrices",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2a5_cap_rho_grid_v1",
+  "base_stage2a5_script_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2a5_interpretable_microcompression_v1.py",
+  "interpretability_utils_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2a_interpretability_utils_v1.py",
+  "master_candidate_cap": 100,
+  "candidate_caps": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "semantic_rhos": [
+    0.85,
+    0.86,
+    0.87,
+    0.88,
+    0.89,
+    0.9,
+    0.91,
+    0.92,
+    0.93,
+    0.94,
+    0.95
+  ],
+  "min_pairwise_n": 20,
+  "exact_duplicate_atol": 1e-12,
+  "max_oof_loss": 0.01,
+  "residual_corr_threshold_by_panel": {
+    "AR": 0.95,
+    "BT": 0.95
+  },
+  "residual_max_oof_loss_by_panel": {
+    "AR": 0.01,
+    "BT": 0.01
+  },
+  "save_compression_decision_audits": true,
+  "save_seed_maps": true,
+  "exceptional_single_cohort": {
+    "enabled": true,
+    "require_strong_context": true,
+    "min_contexts_within_cohort": 2,
+    "panel_evidence_quantile": 0.95,
+    "max_per_panel": 10,
+    "max_per_cohort": 3
+  },
+  "quantity_guardrails": {
+    "min_S2_plus_E_per_panel": 60,
+    "max_S2_plus_E_per_panel": 125,
+    "min_proportion_support_ge2": 0.2,
+    "max_single_cohort_owned_fraction": 0.4
+  }
+}

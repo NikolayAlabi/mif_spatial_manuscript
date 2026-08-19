@@ -1,0 +1,6 @@
+prep_root,panel,label,label_base,excluded_from_primary,n_cells,n_units_present,median_fraction_when_present,mean_fraction_when_present,max_fraction_when_present,n_units_total,fraction_units_present
+phenotype_only,AR,stroma,stroma,False,1399753,481,0.48465096719932715,0.47375738608069634,0.8901564866229177,481,1.0
+phenotype_only,AR,tumor,tumor,False,847727,481,0.27884068952453117,0.3054901967712252,0.7842631898120073,481,1.0
+phenotype_only,AR,macrophage,macrophage,False,344501,481,0.10309567166269785,0.11504471454595218,0.3823490553573788,481,1.0
+phenotype_only,AR,t_cell,t_cell,False,297124,481,0.06813768755516328,0.09319318542951169,0.4445034519383962,481,1.0
+phenotype_only,AR,cd8_t_cell,cd8_t_cell,False,39739,463,0.0074503311258278145,0.013001042678245365,0.11522080251064784,481,0.9625779625779626

@@ -1,0 +1,113 @@
+{
+  "results_roots": [
+    "/projects/ovcare/users/nikolay_alabi/immuno/stage1_results/Z_SCORE_ROOT",
+    "/projects/ovcare/users/nikolay_alabi/immuno/stage1_results/LOG1P_ZSCORE_ROOT"
+  ],
+  "input_tables": [],
+  "include_globs": [
+    "**/*summary*.csv",
+    "**/*summary*.tsv",
+    "**/*results*.csv",
+    "**/*results*.parquet"
+  ],
+  "column_map_json": null,
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2a_steps1_3_context_review",
+  "discovery_cohorts": [
+    "NAC2020",
+    "PURE01",
+    "BLASST",
+    "No-NAC"
+  ],
+  "panels": [
+    "AR",
+    "BT"
+  ],
+  "endpoints": [
+    "complete_response",
+    "any_response",
+    "OS",
+    "RFS"
+  ],
+  "sample_types": [
+    "TURBT"
+  ],
+  "patient_subsets": [
+    "all"
+  ],
+  "aggs": [
+    "median"
+  ],
+  "feature_groups": [
+    "NN",
+    "athena",
+    "cell_features",
+    "triads"
+  ],
+  "transforms": [
+    "zscore",
+    "log1p_zscore"
+  ],
+  "min_n": 20,
+  "min_events": 5,
+  "min_class_n": 5,
+  "min_valid_folds": 4,
+  "min_nonmissing_fraction": 0.5,
+  "transform_preference_order": [
+    "zscore",
+    "log1p_zscore",
+    "raw"
+  ],
+  "transform_oof_material_gain": 0.01,
+  "transform_fold_sd_material_gain": 0.02,
+  "score_weights": {
+    "oof": 0.55,
+    "stability": 0.2,
+    "delta_clinical": 0.15,
+    "completeness": 0.1
+  },
+  "p_value_use": "annotation_only",
+  "stable_direction_cutoff": 0.8,
+  "stable_fold_sd_cutoff": 0.1,
+  "oof_review_thresholds": [
+    0.55,
+    0.6,
+    0.65
+  ],
+  "top_n_for_manual_review": 200,
+  "delta_review_thresholds": [
+    0.0,
+    0.02,
+    0.05
+  ],
+  "fold_sd_review_thresholds": [
+    0.05,
+    0.1,
+    0.15
+  ],
+  "direction_review_thresholds": [
+    0.6,
+    0.8,
+    1.0
+  ],
+  "p_review_thresholds": [
+    0.05,
+    0.01
+  ],
+  "q_review_thresholds": [
+    0.2,
+    0.1,
+    0.05
+  ],
+  "plot_top_n": 100,
+  "top_n_per_category": 25,
+  "scatter_annotate_top_n": 8,
+  "hist_bins": 30,
+  "composition_top_n_values": [
+    10,
+    20,
+    30,
+    50,
+    75,
+    100
+  ]
+}

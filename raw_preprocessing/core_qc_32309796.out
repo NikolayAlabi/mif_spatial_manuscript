@@ -1,0 +1,9 @@
+[write] run_metadata.json
+[write] review_file_inventory.csv: rows=6 cols=5
+[write] qc_by_coord.csv: rows=2,598 cols=7
+[write] tissue_inventory_all.csv: rows=4,371 cols=17
+
+[section] TMA
+[write] clinical_inventory_tma.csv: rows=2,489 cols=16
+[write] parquet_core_inventory_tma.csv: rows=2,555 cols=17
+[write] parquet_file_inventory_tma.csv: rows=27 cols=8

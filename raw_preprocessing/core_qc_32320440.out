@@ -1,0 +1,38 @@
+[write] run_metadata.json
+[write] review_file_inventory.csv: rows=6 cols=5
+[write] qc_by_coord.csv: rows=2,598 cols=10
+[write] tissue_inventory_all.csv: rows=4,371 cols=18
+
+[section] TMA
+[write] clinical_inventory_tma.csv: rows=2,489 cols=16
+[write] parquet_core_inventory_tma.csv: rows=2,555 cols=17
+[write] parquet_file_inventory_tma.csv: rows=27 cols=8
+[write] source_presence_tma.csv: rows=2,601 cols=64
+
+[section] BLASST / whole sections
+[write] clinical_inventory_blasst.csv: rows=1,770 cols=11
+[write] parquet_core_inventory_blasst.csv: rows=1,770 cols=17
+[write] parquet_file_inventory_blasst.csv: rows=9 cols=8
+[write] source_presence_blasst.csv: rows=3,540 cols=55
+[write] source_presence_all.csv: rows=6,141 cols=67
+[write] coverage_summary_by_panel_cohort_tma_sample_type.csv: rows=59 cols=17
+[write] parquet_missing_tissue.csv: rows=0 cols=67
+[write] tissue_missing_parquet.csv: rows=1,816 cols=67
+[write] parquet_missing_review.csv: rows=1,771 cols=67
+[write] review_missing_parquet.csv: rows=44 cols=67
+[write] parquet_missing_clinical.csv: rows=66 cols=67
+[write] clinical_missing_parquet.csv: rows=1,770 cols=67
+[write] primary_input_incomplete.csv: rows=1,882 cols=67
+[write] duplicate_diagnostics.csv: rows=4 cols=5
+
+[section] KOLL / Florestan
+[write] koll_file_inventory.csv: rows=2 cols=5
+[write] source_presence_koll.csv: rows=558 cols=20
+[write] coverage_summary_koll.csv: rows=3 cols=8
+[write] koll_cells_missing_tissue.csv: rows=188 cols=20
+[write] koll_tissue_missing_cells.csv: rows=185 cols=20
+[write] output_file_descriptions.csv: rows=27 cols=2
+[write] README_outputs.md
+
+Done.
+Output directory: /projects/ovcare/users/nikolay_alabi/immuno/data/qc_check_rebuild

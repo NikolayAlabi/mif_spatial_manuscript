@@ -1,0 +1,5 @@
+cohort,specimen_format,mif_sample_types,mif_units_submitted_any_panel,mif_units_ready_any_panel,mif_units_ready_any_panel_n_pct,total_ar_bt_cells,AR_units_submitted,AR_units_ready,AR_units_ready_n_pct,AR_cells_total,BT_units_submitted,BT_units_ready,BT_units_ready_n_pct,BT_cells_total
+NAC2020,TMA cores,TURBT; RC,336,336,336/336 (100%),1989336,167,167,167/167 (100%),992284,169,169,169/169 (100%),997052
+PURE01,TMA cores,TURBT; RC,382,382,382/382 (100%),2006693,196,196,196/196 (100%),1015241,186,186,186/186 (100%),991452
+No-NAC,TMA cores,TURBT; RC,490,486,486/490 (99%),2789307,245,243,243/245 (99%),1429207,245,243,243/245 (99%),1360100
+BLASST,Whole-section regions,TURBT; RC,1190,1190,1190/1190 (100%),11371738,590,590,590/590 (100%),6818750,600,600,600/600 (100%),4552988

@@ -1,0 +1,8 @@
+file,description
+supp_table_valid_units_used_for_prep_root_audit.csv,QC/source-complete TMA cores and BLASST whole-section regions retained for report prep-root audits.
+source_data_prep_root_unit_region_label_counts.csv,Aggregated source data from 1NN_prep.tsv: one row per prep root/panel/cohort/unit/region/final label.
+supp_table_prep_root_label_summary.csv,Across-cohort abundance and consistency for each final prep-root label.
+supp_table_prep_root_label_by_cohort_sample_type.csv,Cell-count and cell-fraction summaries for each final label by cohort and sample type.
+supp_table_mean_cell_count_composition_by_region.csv,Mean cells per unit for each prep-root label in epithelial/tumor and stroma regions.
+supp_table_marker_combination_by_cohort.csv,"Raw marker-combination/collapse-label cell fractions by cohort, sample type, and panel."
+supp_table_prep_root_inventory.csv,Discovered prep roots and number of 1NN_prep.tsv chunks.

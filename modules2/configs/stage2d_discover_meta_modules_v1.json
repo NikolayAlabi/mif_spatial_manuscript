@@ -1,0 +1,23 @@
+{
+  "stage2c_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2c_root_module_scores_v1",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2d_meta_modules_v1",
+
+  "min_pairwise_n": 20,
+  "min_pair_support": 2,
+  "min_sign_consistency": 0.75,
+
+  "primary_linkage_method": "average",
+  "sensitivity_linkage_methods": ["complete"],
+  "rho_threshold_grid": [0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50],
+  "default_primary_rho_threshold": 0.30,
+  "primary_rho_thresholds": {
+    "AR": 0.30,
+    "BT": 0.30
+  },
+
+  "min_roots_per_meta_module": 2,
+  "min_root_modules_per_meta_module": 2,
+
+  "min_meta_member_fraction": 0.50,
+  "min_meta_members_present": 2
+}

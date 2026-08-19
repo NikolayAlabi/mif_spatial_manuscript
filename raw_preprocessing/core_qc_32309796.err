@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/raw_preprocessing/qc_check.py", line 1272, in <module>
+    main()
+  File "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/raw_preprocessing/qc_check.py", line 1164, in main
+    tma_presence = build_branch_presence(
+  File "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/raw_preprocessing/qc_check.py", line 718, in build_branch_presence
+    frames.append(t[["branch", "panel", "coord", "coord_key"]].drop_duplicates())
+  File "/home/nalabi/miniconda3/envs/cuda6/lib/python3.9/site-packages/pandas/core/frame.py", line 3813, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/nalabi/miniconda3/envs/cuda6/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/nalabi/miniconda3/envs/cuda6/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['coord_key'] not in index"

@@ -1,0 +1,46 @@
+{
+  "stage2b_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v9/stage2b_cap_sensitivity",
+  "caps": [
+    10,
+    15,
+    20
+  ],
+  "rho": 0.9,
+  "discovery_cohorts": [
+    "NAC2020",
+    "PURE01",
+    "BLASST",
+    "No-NAC"
+  ],
+  "panels": [
+    "AR",
+    "BT"
+  ],
+  "sample_type": "TURBT",
+  "patient_subset": "all",
+  "agg": "median",
+  "stage1_script_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/univariate_screening/stage1_univariate_cv_screen_v6.py",
+  "stage2_global_module_utils_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2_global_module_utils_v7.py",
+  "harmonized_path": "/projects/ovcare/users/nikolay_alabi/immuno/data/harmonized_modeling_dataframe.csv",
+  "koll_metadata_csv": "/projects/ovcare/users/nikolay_alabi/immuno/data/KOLL_cohort/KOLL_core_metadata.csv",
+  "qc_acceptability": "acceptable_or_borderline",
+  "min_epi_fraction": 0.05,
+  "spatial_root": null,
+  "cell_features_path": null,
+  "triads_path": null,
+  "reuse_shared_cache_roots": [
+    "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2b_cap_sensitivity/shared_matrix_cache",
+    "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2b_cap_sensitivity/shared_cache"
+  ],
+  "min_nonmissing_frac_for_corr": 0.2,
+  "min_pair_support": 2,
+  "min_feature_support_frac": 0.1,
+  "consensus_level": "cohort",
+  "distance_mode": "row_spearman",
+  "linkage_method": "average",
+  "k_min": 4,
+  "k_max_by_panel": {
+    "AR": 25,
+    "BT": 20
+  }
+}

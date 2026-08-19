@@ -1,0 +1,9 @@
+cohort,endpoint,evaluable_n,events_n_pct,km_median_months,interpretation
+NAC2020,OS,41,15 (36.6%),NR,KM median not reached; survival curve did not cross 50%
+NAC2020,RFS,41,11 (26.8%),NR,KM median not reached; survival curve did not cross 50%
+PURE01,OS,90,11 (12.2%),NR,KM median not reached; survival curve did not cross 50%
+PURE01,RFS,90,17 (18.9%),NR,KM median not reached; survival curve did not cross 50%
+No-NAC,OS,63,50 (79.4%),28.4,median reached
+No-NAC,RFS,65,37 (56.9%),26.4,median reached
+BLASST,OS,41,8 (19.5%),23.0,median reached
+BLASST,RFS,41,3 (7.3%),NR,KM median not reached; survival curve did not cross 50%

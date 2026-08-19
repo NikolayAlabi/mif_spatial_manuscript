@@ -1,0 +1,46 @@
+{
+  "candidate_manifest": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v7/discovery_primary_median_best_transform/global_module_candidate_manifest_min2ctx_pred.csv",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v7/global_module_discovery_primary_turbt_expanded_min2ctx_pred",
+  "stage1_script_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/univariate_screening/stage1_univariate_cv_screen_v6.py",
+  "harmonized_path": "/projects/ovcare/users/nikolay_alabi/immuno/data/harmonized_modeling_dataframe.csv",
+  "koll_metadata_csv": "/projects/ovcare/users/nikolay_alabi/immuno/data/KOLL_cohort/KOLL_core_metadata.csv",
+  "discovery_cohorts": [
+    "NAC2020",
+    "PURE01",
+    "BLASST",
+    "No-NAC"
+  ],
+  "panels": [
+    "AR",
+    "BT"
+  ],
+  "sample_types": [
+    "TURBT"
+  ],
+  "patient_subsets": [
+    "all"
+  ],
+  "aggs": [
+    "median"
+  ],
+  "feature_sources": null,
+  "feature_groups": [
+    "NN",
+    "athena",
+    "cell_features",
+    "triads"
+  ],
+  "qc_acceptability": "acceptable_or_borderline",
+  "min_epi_fraction": 0.05,
+  "min_nonmissing_frac_for_corr": 0.2,
+  "min_pair_support": 2,
+  "min_feature_support_frac": 0.1,
+  "consensus_level": "cohort",
+  "distance_mode": "row_spearman",
+  "linkage_method": "average",
+  "k_min": 5,
+  "k_max_by_panel": {
+    "AR": 35,
+    "BT": 25
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "stage2a5_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2a5_within_root_microcompression_v1",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2b1_root_consensus_v1",
+
+  "stage1_script_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/univariate_screening/stage1_univariate_cv_screen_v6.py",
+  "harmonized_path": "/projects/ovcare/users/nikolay_alabi/immuno/data/harmonized_modeling_dataframe.csv",
+  "koll_metadata_csv": "/projects/ovcare/users/nikolay_alabi/immuno/data/KOLL_cohort/KOLL_core_metadata.csv",
+
+  "discovery_cohorts": ["NAC2020", "PURE01", "BLASST", "No-NAC"],
+  "panels": ["AR", "BT"],
+  "sample_type": "TURBT",
+  "patient_subset": "all",
+  "agg": "median",
+
+  "qc_acceptability": "acceptable_or_borderline",
+  "min_epi_fraction": 0.05,
+  "spatial_root": null,
+  "cell_features_path": null,
+  "triads_path": null,
+
+  "min_nonmissing_frac_for_corr": 0.20,
+  "min_pairwise_n": 20,
+  "min_pair_support": 2,
+  "min_feature_support_frac": 0.10
+}

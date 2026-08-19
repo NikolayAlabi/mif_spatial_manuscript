@@ -1,0 +1,30 @@
+{
+  "candidate_parquet": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2a_steps1_3_rootaware_v1/all_context_best_transform_features.parquet",
+  "context_rules_csv": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules2/stage2a_context_thresholds_rootaware_v1.csv",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2a_candidate_cap_sensitivity_v1",
+
+  "stage1_script_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/univariate_screening/stage1_univariate_cv_screen_v6.py",
+  "harmonized_path": "/projects/ovcare/users/nikolay_alabi/immuno/data/harmonized_modeling_dataframe.csv",
+  "koll_metadata_csv": "/projects/ovcare/users/nikolay_alabi/immuno/data/KOLL_cohort/KOLL_core_metadata.csv",
+
+  "qc_acceptability": "acceptable_or_borderline",
+  "min_epi_fraction": 0.05,
+  "spatial_root": null,
+  "cell_features_path": null,
+  "triads_path": null,
+
+  "max_depth": 50,
+  "plot_depths": [1, 2, 3, 4, 5, 7, 10, 12, 15, 20, 25, 30, 40, 50],
+
+  "min_pairwise_n": 20,
+  "redundancy_rhos": [0.85, 0.90, 0.95],
+  "primary_redundancy_rho": 0.90,
+
+  "novelty_yield_profiles": {
+    "strict": 0.80,
+    "balanced": 0.70,
+    "permissive": 0.60
+  },
+  "diminishing_window": 5,
+  "max_new_novel_in_window": 2
+}

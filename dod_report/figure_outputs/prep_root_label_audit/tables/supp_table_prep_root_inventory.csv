@@ -1,0 +1,6 @@
+prep_root,path,exists,n_1NN_prep_files,chunk_summary_exists
+phenotype_only,/projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only,True,36,True
+AR_state,/projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state,True,18,True
+AR_checkpoint_state,/projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state,True,18,True
+compartment,/projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment,True,36,True
+compartment_state,/projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state,True,18,True

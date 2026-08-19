@@ -1,0 +1,47 @@
+{
+  "results_roots": [
+    "/projects/ovcare/users/nikolay_alabi/immuno/results/stage1_univariate_TURBT2/acc_borderline_epi005"
+  ],
+  "input_tables": [],
+  "include_globs": [
+    "**/*summary*.csv",
+    "**/*summary*.tsv",
+    "**/*results*.csv",
+    "**/*results*.parquet"
+  ],
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/discovery_primary_zscore_compressed",
+  "stage2_utils_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2_global_module_utils_v7.py",
+  "stage1_script_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/univariate_screening/stage1_univariate_cv_screen_v6.py",
+  "harmonized_path": "/projects/ovcare/users/nikolay_alabi/immuno/data/harmonized_modeling_dataframe.csv",
+  "koll_metadata_csv": "/projects/ovcare/users/nikolay_alabi/immuno/data/KOLL_cohort/KOLL_core_metadata.csv",
+  "discovery_cohorts": ["NAC2020", "PURE01", "BLASST", "No-NAC"],
+  "panels": ["AR", "BT"],
+  "sample_types": ["TURBT"],
+  "patient_subsets": ["all"],
+  "aggs": ["median"],
+  "feature_groups": ["NN", "athena", "cell_features", "triads"],
+  "transforms": ["zscore"],
+  "min_n": 20,
+  "min_events": 5,
+  "min_class_n": 5,
+  "min_valid_folds": 4,
+  "min_nonmissing_fraction": 0.5,
+  "score_weights": {
+    "oof": 0.5,
+    "delta_clinical": 0.25,
+    "stability": 0.15,
+    "completeness": 0.1
+  },
+  "preselect_n_by_panel": {"AR": 300, "BT": 250},
+  "final_n_by_panel": {"AR": 60, "BT": 75},
+  "corr_threshold_by_panel": {"AR": 0.93, "BT": 0.97},
+  "family_caps_by_panel": {
+    "AR": {"triads": 0.35, "cell_features": 0.35, "athena": 0.4, "NN": 0.4},
+    "BT": {"triads": 0.45, "cell_features": 0.45, "athena": 0.5, "NN": 0.5}
+  },
+  "qc_acceptability": "acceptable_or_borderline",
+  "min_epi_fraction": 0.05,
+  "force_rebuild_matrices": false,
+  "audit_only": false,
+  "column_map_json": null
+}

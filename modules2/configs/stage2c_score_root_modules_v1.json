@@ -1,0 +1,14 @@
+{
+  "stage2b1_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2b1_root_consensus_v1",
+  "stage2b2_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2b2_root_k_review_v3",
+  "final_k_csv": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2b2_root_k_review_v3/stage2b2_final_k_selections.csv",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2c_root_module_scores_v1",
+
+  "primary_distance_mode": "row_spearman",
+  "linkage_method": "average",
+
+  "min_feature_nonmissing_fraction_for_scoring": 0.20,
+  "min_patient_module_feature_fraction": 0.50,
+  "min_features_present_multifeature_module": 1,
+  "zscore_ddof": 0
+}

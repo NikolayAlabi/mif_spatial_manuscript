@@ -1,0 +1,7 @@
+
+DONE: KOLL cell_df built
+Input cells:    1,991,390
+Primary cells:  1,991,097
+Excluded cells: 293
+Output parquet: /projects/ovcare/users/nikolay_alabi/immuno/phenotype_assignments/cell_df_rebuild/koll_cell_df.parquet
+Label summary:  /projects/ovcare/users/nikolay_alabi/immuno/phenotype_assignments/cell_df_rebuild/koll_label_summary.csv

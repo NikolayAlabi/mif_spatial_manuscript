@@ -1,0 +1,2 @@
+cohort,warning
+No-NAC,4 mIF patient IDs required fallback inference. Review source_data_table2_mif_patient_unit_level.csv before final reporting.

@@ -1,0 +1,5 @@
+{
+  "cap_sensitivity_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2a_candidate_cap_sensitivity_v1",
+  "root_caps_csv": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules2/configs/stage2a_root_candidate_caps_v1.csv",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2a4_root_nomination_v1"
+}

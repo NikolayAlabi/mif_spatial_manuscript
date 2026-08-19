@@ -1,0 +1,13 @@
+field,definition
+mif_patients_submitted_n,Unique patients with ≥1 report-eligible AR/BT physical mIF core/whole-section region submitted.
+mif_patients_analysis_ready_n,Unique patients with ≥1 AR/BT physical mIF core/whole-section region that is source-complete and passes QC.
+mif_patients_lost_at_qc_n_pct,Submitted mIF patients with no remaining analysis-ready AR/BT physical core/whole-section region; percent denominator is submitted mIF patients.
+physical_cores_sections_submitted_n,"Unique physical TMA cores or BLASST whole-section regions submitted, deduplicated across AR/BT panels."
+physical_cores_sections_analysis_ready_n,Unique physical TMA cores or BLASST whole-section regions with ≥1 analysis-ready AR/BT panel unit.
+panel_units_submitted_n,"Panel-specific units, i.e., coordinate × panel."
+analysis_ready_unit,"has_all_primary_inputs and passes structural QC for TMA; for BLASST, manual TMA structural QC is not required."
+KM_median_OS_months,Kaplan-Meier median OS; NR indicates median was not reached.
+KM_median_RFS_months,Kaplan-Meier median RFS; NR indicates median was not reached.
+OS_time_median_iqr_months,Observed OS time/follow-up distribution among patients with OS time and event indicator.
+RFS_time_median_iqr_months,Observed RFS time/follow-up distribution among patients with RFS time and event indicator.
+patient_ids_requiring_fallback_n,Patients whose mIF patient ID could not be read from core-level metadata and was therefore inferred from coordinate. Ideally this should be zero or reviewed.

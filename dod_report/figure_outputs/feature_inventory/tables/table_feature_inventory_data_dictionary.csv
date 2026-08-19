@@ -1,0 +1,6 @@
+file,description
+table_feature_inventory_by_cohort_panel_family.csv,"Main summary: generated feature counts by cohort, panel, and feature family, amalgamated across prep roots."
+table_feature_inventory_by_prep_root.csv,"Summary by cohort, panel, and prep root."
+table_feature_inventory_by_cohort_panel_prep_root_family.csv,"Detailed summary by cohort, panel, prep root, and feature family."
+source_data_feature_inventory_long.csv,Feature-level source data with prep-root namespacing.
+source_data_mean_usable_features_by_file.csv,Unit-level mean non-missing feature source data.

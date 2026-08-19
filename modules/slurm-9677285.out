@@ -1,0 +1,15 @@
+[INFO] MODE=audit_all_median
+[INFO] SCRIPT=/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2_module_pipeline_v7.py
+[INFO] STAGE1_ROOT=/projects/ovcare/users/nikolay_alabi/immuno/stage1_univariate_v6/results
+[INFO] OUTDIR=/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v7/audit_all_cohorts_median_best_transform
+[INFO] COHORTS_CSV=NAC2020,PURE01,BLASST,No-NAC,NAC2015,KOLL
+[INFO] AGG_SUMMARY_COHORTS_CSV=NAC2020,PURE01,BLASST,No-NAC
+[INFO] SAMPLE_TYPES_CSV=TURBT,RC
+[INFO] PATIENT_SUBSETS_CSV=all,no_adj_chemo
+[INFO] AGGS_CSV=median
+[INFO] TRANSFORM_MODES_CSV=zscore
+[INFO] LOGOUT=/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v7/logs/s2a_v7_audit_all_median.out
+[INFO] LOGERR=/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v7/logs/s2a_v7_audit_all_median.err
+[INFO] CMD=set +u; source '/home/nalabi/miniconda3/etc/profile.d/conda.sh'; conda activate 'cuda6'; set -u; python -u '/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2_module_pipeline_v7.py'   --stage1-root '/projects/ovcare/users/nikolay_alabi/immuno/stage1_univariate_v6/results'   --output-root '/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v7/audit_all_cohorts_median_best_transform'   --cohorts 'NAC2020,PURE01,BLASST,No-NAC,NAC2015,KOLL'   --aggregation-summary-cohorts 'NAC2020,PURE01,BLASST,No-NAC'   --sample-types 'TURBT,RC'   --patient-subsets 'all,no_adj_chemo'   --aggs 'median'   --transform-modes 'zscore'   --evaluate-all-cohorts
+sbatch: error: invalid partition specified: upgrade
+sbatch: error: Batch job submission failed: Invalid partition name specified

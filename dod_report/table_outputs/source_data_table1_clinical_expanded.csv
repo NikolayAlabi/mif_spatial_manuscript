@@ -1,0 +1,5 @@
+cohort,clinical_patients_n,treatment_context,age_median_iqr,male_n_pct,variant_histology_n_pct,clinical_T_ge3_n_pct,pathologic_T0_n_pct,pathologic_node_positive_n_pct,any_response_evaluable_n,any_response_n_pct,complete_response_evaluable_n,complete_response_n_pct,adjuvant_chemo_n_pct,OS_evaluable_n,OS_events_n_pct,OS_time_median_iqr_months,KM_median_OS_months,RFS_evaluable_n,RFS_events_n_pct,RFS_time_median_iqr_months,KM_median_RFS_months
+NAC2020,42,NAC,62.5 (55.2-68.5),32 (76.2%),42 (100.0%),13 (31.0%),13 (34.2%),11 (26.2%),42,18 (42.9%),42,13 (31.0%),0,41,15 (36.6%),52.0 (14.0-59.0),NR,41,11 (26.8%),54.0 (6.0-62.0),NR
+PURE01,90,IO,67.5 (61.6-73.8),77 (85.6%),90 (100.0%),44 (48.9%),34 (45.9%),12 (14.1%),90,50 (55.6%),90,33 (36.7%),0,90,11 (12.2%),54.0 (20.0-72.8),NR,90,17 (18.9%),52.5 (17.2-72.8),NR
+No-NAC,65,RC-only / no NAT,71.0 (65.0-77.0),57 (87.7%),65 (100.0%),17 (27.0%),0 (0.0%),32 (49.2%),0,0,0,0,28 (43.1%),63,50 (79.4%),28.0 (10.3-60.9),28.4,65,37 (56.9%),16.4 (4.8-55.9),26.4
+BLASST,41,NAC/IO,66.0 (59.0-71.0),26 (63.4%),0,4 (9.8%),15 (50.0%),7 (17.1%),41,28 (68.3%),41,15 (36.6%),0,41,8 (19.5%),11.0 (6.0-14.0),23.0,41,3 (7.3%),11.0 (6.0-14.0),NR

@@ -1,0 +1,44 @@
+{
+  "stage2a4_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2a4_filtered_context_matrices",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_global_modules_v8/stage2a5_interpretable_microcompression",
+  "interpretability_utils_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules/stage2a_interpretability_utils_v1.py",
+
+  "min_pairwise_n": 20,
+  "exact_duplicate_atol": 1e-12,
+
+  "state_corr_threshold_by_panel": {
+    "AR": 0.90,
+    "BT": 0.95
+  },
+  "state_max_oof_loss_by_panel": {
+    "AR": 0.01,
+    "BT": 0.01
+  },
+
+  "metric_corr_threshold_by_panel": {
+    "AR": 0.93,
+    "BT": 0.95
+  },
+  "metric_max_oof_loss_by_panel": {
+    "AR": 0.01,
+    "BT": 0.01
+  },
+
+  "compartment_corr_threshold_by_panel": {
+    "AR": 0.90,
+    "BT": 0.93
+  },
+  "compartment_max_oof_loss_by_panel": {
+    "AR": 0.01,
+    "BT": 0.01
+  },
+
+  "residual_corr_threshold_by_panel": {
+    "AR": 0.95,
+    "BT": 0.97
+  },
+  "residual_max_oof_loss_by_panel": {
+    "AR": 0.01,
+    "BT": 0.01
+  }
+}

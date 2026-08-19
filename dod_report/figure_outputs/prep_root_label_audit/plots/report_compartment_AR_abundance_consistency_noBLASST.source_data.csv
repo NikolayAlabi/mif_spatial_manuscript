@@ -1,0 +1,4 @@
+prep_root,panel,label,label_base,excluded_from_primary,n_cells,n_units_present,median_fraction_when_present,mean_fraction_when_present,max_fraction_when_present,n_units_total,fraction_units_present
+compartment,AR,stroma,stroma,False,1399753,481,0.48465096719932715,0.47375738608069634,0.8901564866229177,481,1.0
+compartment,AR,tumor,tumor,False,847727,481,0.27884068952453117,0.3054901967712252,0.7842631898120073,481,1.0
+compartment,AR,immune,immune,False,681364,481,0.19977591036414566,0.22075241714807842,0.6309873767940515,481,1.0

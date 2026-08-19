@@ -1,0 +1,78 @@
+{
+  "design_name": "root_module_to_meta_module_v1",
+  "principles": {
+    "raw_feature_module_discovery": "within_prep_root_only",
+    "cross_root_raw_feature_rescue": false,
+    "cross_root_raw_feature_microcompression": false,
+    "cross_root_integration_stage": "meta_module_discovery_after_root_module_scoring",
+    "primary_root_nomination_rank": "root_candidate_evidence_score"
+  },
+  "panels": {
+    "AR": {
+      "phenotype_only": {
+        "primary_identity_axis": "native_cell_phenotype",
+        "state_axis": null,
+        "description": "Base phenotype-level AR panel feature space."
+      },
+      "AR_state": {
+        "primary_identity_axis": "native_cell_phenotype",
+        "state_axis": "PD1_PDL1_checkpoint_state",
+        "description": "Native phenotype identities resolved by checkpoint/state annotation."
+      },
+      "AR_checkpoint_state": {
+        "primary_identity_axis": "checkpoint_state",
+        "identities": [
+          "PD1",
+          "PDL1",
+          "PD1_PDL1",
+          "checkpoint_neg"
+        ],
+        "state_axis": null,
+        "description": "Checkpoint-state ecosystem; checkpoint categories are the primary identities, not cell types."
+      },
+      "compartment": {
+        "primary_identity_axis": "tissue_compartment_identity",
+        "identities": [
+          "immune",
+          "tumor",
+          "stroma"
+        ],
+        "state_axis": null,
+        "description": "Immune/tumor/stroma compartment architecture."
+      },
+      "compartment_state": {
+        "primary_identity_axis": "tissue_compartment_identity",
+        "identities": [
+          "immune",
+          "tumor",
+          "stroma"
+        ],
+        "state_axis": "PD1_PDL1_checkpoint_state",
+        "states": [
+          "PD1",
+          "PDL1",
+          "PD1_PDL1",
+          "checkpoint_neg"
+        ],
+        "description": "Immune/tumor/stroma identities resolved by checkpoint state."
+      }
+    },
+    "BT": {
+      "phenotype_only": {
+        "primary_identity_axis": "native_cell_phenotype",
+        "state_axis": null,
+        "description": "Base B/T/NK/plasma/etc. phenotype feature space."
+      },
+      "compartment": {
+        "primary_identity_axis": "tissue_compartment_identity",
+        "identities": [
+          "immune",
+          "tumor",
+          "stroma"
+        ],
+        "state_axis": null,
+        "description": "Immune/tumor/stroma compartment architecture."
+      }
+    }
+  }
+}

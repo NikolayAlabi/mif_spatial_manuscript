@@ -1,0 +1,14 @@
+{
+  "stage2a4_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2a4_root_nomination_v1",
+  "output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2a5_within_root_microcompression_v1",
+  "feature_parser_path": "/projects/ovcare/users/nikolay_alabi/immuno/manuscript/modules2/stage2_feature_parser_v8.py",
+
+  "min_pairwise_n": 20,
+  "exact_duplicate_atol": 1e-12,
+
+  "summary_corr_threshold": 0.95,
+  "summary_max_oof_loss": 0.005,
+
+  "exact_semantic_corr_threshold": 0.98,
+  "exact_semantic_max_oof_loss": 0.005
+}

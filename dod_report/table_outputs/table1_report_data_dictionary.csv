@@ -1,0 +1,12 @@
+term,definition
+Clinical patients,Unique patient_id rows in harmonized_modeling_dataframe.csv after report cohort filtering.
+mIF units,Unique coord-level units in source_presence_all.csv. These are TMA cores for NAC2020/PURE01/No-NAC and whole-section regions for BLASST.
+Submitted,Unit appears in the QC source-presence universe for AR/BT panels.
+QC/source-complete,"Unit has all primary inputs according to qc_check.py: cells/parquet, tissue, clinical, and for TMA cohorts manual review; BLASST does not require review."
+Any pathologic response,any_response == 1 among non-missing any_response values.
+Complete pathologic response,complete_response == 1 among non-missing complete_response values.
+OS deaths,OS_event == 1 among patients with OS_event and at least one OS time column.
+RFS recurrences,REC == 1 among patients with REC and at least one recurrence time column.
+Clinical T stage ≥3,cT parsed as T3/T4 or numeric 3/4 among evaluable cT values.
+Pathologic T0,pT parsed as pT0/0 among evaluable pT values.
+Pathologic node-positive,"pN parsed as N+, N1-N3, or numeric >0 among evaluable pN values."

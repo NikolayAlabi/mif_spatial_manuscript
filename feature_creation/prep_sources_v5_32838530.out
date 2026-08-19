@@ -1,0 +1,143 @@
+============================================================
+[1/5] phenotype_only: AR + BT, label_phenotype
+============================================================
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2015/AR/chunk_0001 | samples=100 | cells=526874
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2015/AR/chunk_0002 | samples=100 | cells=561610
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2015/AR/chunk_0003 | samples=45 | cells=271484
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2015/BT/chunk_0001 | samples=100 | cells=501261
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2015/BT/chunk_0002 | samples=100 | cells=501650
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2015/BT/chunk_0003 | samples=48 | cells=290762
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2020/AR/chunk_0001 | samples=100 | cells=525129
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2020/AR/chunk_0002 | samples=67 | cells=450545
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2020/BT/chunk_0001 | samples=100 | cells=536728
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/NAC2020/BT/chunk_0002 | samples=69 | cells=452923
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/No-NAC/AR/chunk_0001 | samples=100 | cells=572724
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/No-NAC/AR/chunk_0002 | samples=100 | cells=562851
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/No-NAC/AR/chunk_0003 | samples=45 | cells=257455
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/No-NAC/BT/chunk_0001 | samples=100 | cells=540585
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/No-NAC/BT/chunk_0002 | samples=100 | cells=556814
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/No-NAC/BT/chunk_0003 | samples=45 | cells=241722
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/PURE01/AR/chunk_0001 | samples=100 | cells=493491
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/PURE01/AR/chunk_0002 | samples=96 | cells=496509
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/PURE01/BT/chunk_0001 | samples=100 | cells=523145
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/tma/PURE01/BT/chunk_0002 | samples=86 | cells=462177
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/AR/chunk_0001 | samples=100 | cells=1137678
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/AR/chunk_0002 | samples=100 | cells=1002932
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/AR/chunk_0003 | samples=100 | cells=1371775
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/AR/chunk_0004 | samples=100 | cells=1351279
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/AR/chunk_0005 | samples=100 | cells=982076
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/AR/chunk_0006 | samples=90 | cells=908782
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/BT/chunk_0001 | samples=100 | cells=803886
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/BT/chunk_0002 | samples=100 | cells=543594
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/BT/chunk_0003 | samples=100 | cells=866668
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/BT/chunk_0004 | samples=100 | cells=838210
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/BT/chunk_0005 | samples=100 | cells=752520
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/wholesection/BLASST/BT/chunk_0006 | samples=100 | cells=734379
+
+Done.
+Chunk summary: /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_phenotype_only/chunk_summary.tsv
+============================================================
+[2/5] AR_state: AR only, label_ar_state
+============================================================
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/NAC2015/AR/chunk_0001 | samples=100 | cells=526874
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/NAC2015/AR/chunk_0002 | samples=100 | cells=561610
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/NAC2015/AR/chunk_0003 | samples=45 | cells=271484
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/NAC2020/AR/chunk_0001 | samples=100 | cells=525129
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/NAC2020/AR/chunk_0002 | samples=67 | cells=450545
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/No-NAC/AR/chunk_0001 | samples=100 | cells=572724
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/No-NAC/AR/chunk_0002 | samples=100 | cells=562851
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/No-NAC/AR/chunk_0003 | samples=45 | cells=257455
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/PURE01/AR/chunk_0001 | samples=100 | cells=493491
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/tma/PURE01/AR/chunk_0002 | samples=96 | cells=496509
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/wholesection/BLASST/AR/chunk_0001 | samples=100 | cells=1137678
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/wholesection/BLASST/AR/chunk_0002 | samples=100 | cells=1002932
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/wholesection/BLASST/AR/chunk_0003 | samples=100 | cells=1371775
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/wholesection/BLASST/AR/chunk_0004 | samples=100 | cells=1351279
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/wholesection/BLASST/AR/chunk_0005 | samples=100 | cells=982076
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/wholesection/BLASST/AR/chunk_0006 | samples=90 | cells=908782
+
+Done.
+Chunk summary: /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_state/chunk_summary.tsv
+============================================================
+[3/5] AR_checkpoint_state: AR only, label_checkpoint_state
+============================================================
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/NAC2015/AR/chunk_0001 | samples=100 | cells=526874
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/NAC2015/AR/chunk_0002 | samples=100 | cells=561610
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/NAC2015/AR/chunk_0003 | samples=45 | cells=271484
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/NAC2020/AR/chunk_0001 | samples=100 | cells=525129
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/NAC2020/AR/chunk_0002 | samples=67 | cells=450545
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/No-NAC/AR/chunk_0001 | samples=100 | cells=572724
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/No-NAC/AR/chunk_0002 | samples=100 | cells=562851
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/No-NAC/AR/chunk_0003 | samples=45 | cells=257455
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/PURE01/AR/chunk_0001 | samples=100 | cells=493491
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/tma/PURE01/AR/chunk_0002 | samples=96 | cells=496509
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/wholesection/BLASST/AR/chunk_0001 | samples=100 | cells=1137678
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/wholesection/BLASST/AR/chunk_0002 | samples=100 | cells=1002932
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/wholesection/BLASST/AR/chunk_0003 | samples=100 | cells=1371775
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/wholesection/BLASST/AR/chunk_0004 | samples=100 | cells=1351279
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/wholesection/BLASST/AR/chunk_0005 | samples=100 | cells=982076
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/wholesection/BLASST/AR/chunk_0006 | samples=90 | cells=908782
+
+Done.
+Chunk summary: /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_AR_checkpoint_state/chunk_summary.tsv
+============================================================
+[4/5] compartment: AR + BT, label_compartment
+============================================================
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2015/AR/chunk_0001 | samples=100 | cells=526874
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2015/AR/chunk_0002 | samples=100 | cells=561610
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2015/AR/chunk_0003 | samples=45 | cells=271484
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2015/BT/chunk_0001 | samples=100 | cells=501261
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2015/BT/chunk_0002 | samples=100 | cells=501650
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2015/BT/chunk_0003 | samples=48 | cells=290762
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2020/AR/chunk_0001 | samples=100 | cells=525129
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2020/AR/chunk_0002 | samples=67 | cells=450545
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2020/BT/chunk_0001 | samples=100 | cells=536728
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/NAC2020/BT/chunk_0002 | samples=69 | cells=452923
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/No-NAC/AR/chunk_0001 | samples=100 | cells=572724
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/No-NAC/AR/chunk_0002 | samples=100 | cells=562851
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/No-NAC/AR/chunk_0003 | samples=45 | cells=257455
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/No-NAC/BT/chunk_0001 | samples=100 | cells=540585
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/No-NAC/BT/chunk_0002 | samples=100 | cells=556814
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/No-NAC/BT/chunk_0003 | samples=45 | cells=241722
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/PURE01/AR/chunk_0001 | samples=100 | cells=493491
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/PURE01/AR/chunk_0002 | samples=96 | cells=496509
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/PURE01/BT/chunk_0001 | samples=100 | cells=523145
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/tma/PURE01/BT/chunk_0002 | samples=86 | cells=462177
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/AR/chunk_0001 | samples=100 | cells=1137678
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/AR/chunk_0002 | samples=100 | cells=1002932
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/AR/chunk_0003 | samples=100 | cells=1371775
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/AR/chunk_0004 | samples=100 | cells=1351279
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/AR/chunk_0005 | samples=100 | cells=982076
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/AR/chunk_0006 | samples=90 | cells=908782
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/BT/chunk_0001 | samples=100 | cells=803886
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/BT/chunk_0002 | samples=100 | cells=543594
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/BT/chunk_0003 | samples=100 | cells=866668
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/BT/chunk_0004 | samples=100 | cells=838210
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/BT/chunk_0005 | samples=100 | cells=752520
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/wholesection/BLASST/BT/chunk_0006 | samples=100 | cells=734379
+
+Done.
+Chunk summary: /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment/chunk_summary.tsv
+============================================================
+[5/5] compartment_state: AR only, label_compartment_state
+============================================================
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/NAC2015/AR/chunk_0001 | samples=100 | cells=526874
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/NAC2015/AR/chunk_0002 | samples=100 | cells=561610
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/NAC2015/AR/chunk_0003 | samples=45 | cells=271484
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/NAC2020/AR/chunk_0001 | samples=100 | cells=525129
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/NAC2020/AR/chunk_0002 | samples=67 | cells=450545
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/No-NAC/AR/chunk_0001 | samples=100 | cells=572724
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/No-NAC/AR/chunk_0002 | samples=100 | cells=562851
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/No-NAC/AR/chunk_0003 | samples=45 | cells=257455
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/PURE01/AR/chunk_0001 | samples=100 | cells=493491
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/tma/PURE01/AR/chunk_0002 | samples=96 | cells=496509
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/wholesection/BLASST/AR/chunk_0001 | samples=100 | cells=1137678
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/wholesection/BLASST/AR/chunk_0002 | samples=100 | cells=1002932
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/wholesection/BLASST/AR/chunk_0003 | samples=100 | cells=1371775
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/wholesection/BLASST/AR/chunk_0004 | samples=100 | cells=1351279
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/wholesection/BLASST/AR/chunk_0005 | samples=100 | cells=982076
+[WROTE] /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/wholesection/BLASST/AR/chunk_0006 | samples=90 | cells=908782
+
+Done.
+Chunk summary: /projects/ovcare/users/nikolay_alabi/immuno/weibull/run_reviewed_compartment_state/chunk_summary.tsv
+DONE

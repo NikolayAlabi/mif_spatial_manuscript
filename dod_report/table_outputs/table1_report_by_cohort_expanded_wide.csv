@@ -1,0 +1,23 @@
+Characteristic,NAC2020,PURE01,No-NAC,BLASST
+Treatment context,NAC,IO,RC-only / no NAT,NAC/IO
+"Clinical patients, n",42,90,65,41
+"Age, median (IQR), years",62.5 (55.2-68.5),67.5 (61.6-73.8),71.0 (65.0-77.0),66.0 (59.0-71.0)
+"Male sex, n (%)",32 (76.2%),77 (85.6%),57 (87.7%),26 (63.4%)
+"Variant histology recorded, n (%)",42 (100.0%),90 (100.0%),65 (100.0%),0
+"Clinical T stage ≥3, n (%)",13 (31.0%),44 (48.9%),17 (27.0%),4 (9.8%)
+"Pathologic T0, n (%)",13 (34.2%),34 (45.9%),0 (0.0%),15 (50.0%)
+"Pathologic node-positive, n (%)",11 (26.2%),12 (14.1%),32 (49.2%),7 (17.1%)
+"Any response evaluable, n",42,90,0,41
+"Any response, n (%)",18 (42.9%),50 (55.6%),0,28 (68.3%)
+"Complete response evaluable, n",42,90,0,41
+"Complete response, n (%)",13 (31.0%),33 (36.7%),0,15 (36.6%)
+"OS evaluable, n",41,90,63,41
+"OS events, n (%)",15 (36.6%),11 (12.2%),50 (79.4%),8 (19.5%)
+"OS time/follow-up, median (IQR), months",52.0 (14.0-59.0),54.0 (20.0-72.8),28.0 (10.3-60.9),11.0 (6.0-14.0)
+"KM median OS, months (if reached)",NR,NR,28.4,23.0
+"RFS evaluable, n",41,90,65,41
+"RFS events, n (%)",11 (26.8%),17 (18.9%),37 (56.9%),3 (7.3%)
+"RFS time/follow-up, median (IQR), months",54.0 (6.0-62.0),52.5 (17.2-72.8),16.4 (4.8-55.9),11.0 (6.0-14.0)
+"KM median RFS, months (if reached)",NR,NR,26.4,NR
+"Adjuvant chemotherapy, n (%)",0,0,28 (43.1%),0
+"Adjuvant IO, n (%)",NA,NA,NA,NA
