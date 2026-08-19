@@ -11,8 +11,8 @@
   "rho_threshold_grid": [0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50],
   "default_primary_rho_threshold": 0.30,
   "primary_rho_thresholds": {
-    "AR": 0.30,
-    "BT": 0.30
+    "AR": 0.35,
+    "BT": 0.35
   },
 
   "min_roots_per_meta_module": 2,

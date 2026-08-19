@@ -1,0 +1,61 @@
+{
+  "stage2c_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2c_root_module_scores_v1",
+  "stage2d_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage2_root_meta_modules_v1/stage2d_meta_modules_v1",
+  "stage1_script_path": "/projects/ovcare/users/nikolay_alabi/immuno/phenotype_assignments/stage1_univariate_cv_screen.py",
+  "harmonized_path": "/projects/ovcare/users/nikolay_alabi/immuno/data/harmonized_modeling_dataframe.csv",
+  "clinical_matrix_root": "/projects/ovcare/users/nikolay_alabi/immuno/clinical_data/clean_matrices",
+  "stage4_output_root": "/projects/ovcare/users/nikolay_alabi/immuno/stage4_delta_rc_evaluation_v1",
+  "cohorts": [
+    "NAC2020",
+    "PURE01",
+    "BLASST",
+    "No-NAC",
+    "NAC2015"
+  ],
+  "panels": [
+    "AR",
+    "BT"
+  ],
+  "delta_endpoints": [
+    "any_response",
+    "complete_response",
+    "OS",
+    "RFS"
+  ],
+  "cohort_patient_subsets": {
+    "_default": [
+      "all"
+    ],
+    "No-NAC": [
+      "all",
+      "no_adj_chemo"
+    ]
+  },
+  "expected_meta_rho_thresholds": {
+    "AR": 0.35,
+    "BT": 0.35
+  },
+  "qc_acceptability": "acceptable_or_borderline",
+  "min_epi_fraction": 0.05,
+  "core_agg": "median",
+  "min_feature_nonmissing_fraction_for_scoring": 0.2,
+  "min_patient_module_feature_fraction": 0.5,
+  "min_features_present_multifeature_module": 1,
+  "zscore_ddof": 0,
+  "min_meta_member_fraction": 0.5,
+  "min_meta_members_present": 2,
+  "primary_min_matched_pairs": 10,
+  "bootstrap_reps": 1000,
+  "top_n_paired_plots": 8,
+  "cv_n_splits": 5,
+  "cv_n_repeats": 5,
+  "random_state": 42,
+  "primary_min_n": 20,
+  "primary_min_response_class": 5,
+  "primary_min_survival_events": 5,
+  "minimum_fit_n": 8,
+  "minimum_survival_events": 3,
+  "spatial_root": null,
+  "cell_features_path": null,
+  "triads_path": null
+}
